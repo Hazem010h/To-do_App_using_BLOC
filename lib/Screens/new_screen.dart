@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_bloc/cubit.dart';
-import 'package:todo_bloc/reusable_widgets.dart';
-import 'package:todo_bloc/states.dart';
+import 'package:todo_bloc/Cubit/cubit.dart';
+import 'package:todo_bloc/Reusable_Components/reusable_widgets.dart';
+
+import '../Cubit/states.dart';
 
 class NewTasksScreen extends StatelessWidget {
   const NewTasksScreen({Key? key}) : super(key: key);

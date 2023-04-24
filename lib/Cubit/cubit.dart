@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:todo_bloc/done_screen.dart';
-import 'package:todo_bloc/new_screen.dart';
-import 'package:todo_bloc/reusable_widgets.dart';
-import 'package:todo_bloc/states.dart';
-import 'archived_screen.dart';
+import 'package:todo_bloc/Cubit/states.dart';
+import 'package:todo_bloc/Screens/done_screen.dart';
+import 'package:todo_bloc/Screens/new_screen.dart';
+import 'package:todo_bloc/Reusable_Components/reusable_widgets.dart';
+import '../Screens/archived_screen.dart';
 
 class AppCubit extends Cubit<AppStates> {
   AppCubit() : super(AppInitialState());
